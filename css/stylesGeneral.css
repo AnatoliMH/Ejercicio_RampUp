@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    font-family: 'Kalam', cursive;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    background-color: rgba(0, 255, 255, 0.534);
+    margin: 3px;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.barraNav {
+    background-color: rgb(146, 165, 165);
+    margin: 3px;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.barraNav a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.barraNav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5px;
+}
+
+.contPrincipal {
+    display: flex;
+    border-radius: 1em;
+}
+
+.contSeccion {
+    background-color: khaki;
+    margin: 3px;
+    padding: 1em;
+    border-radius: 1em;
+    flex: 65%;
+}
+
+.contAside {
+    background-color: aquamarine;
+    margin: 3px;
+    padding: 1em;
+    border-radius: 1em;
+    flex: 35%;
+}
+
+.contFooter {
+    background-color:rgba(0, 255, 255, 0.534);
+    margin: 3px;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.contAside:hover, .contSeccion:hover {
+    background-color: whitesmoke;
+}
