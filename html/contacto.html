@@ -30,18 +30,72 @@
         <main class="contPrincipal">
             <div class="contSeccion">
                 <section>
-                    <form action="/formulario">
+                    <form class="formulario" action="/formulario">
                         <fieldset class="contExterior">
-                            <label for="fname"> Nombre: </label>
-                            <input type="text" id="fname" name="fname" placeholder="p.e. Juan">
+                            <div class="contNombre">
+                                <label for="fName"> Nombre: </label>
+                                <input type="text" id="fName" name="fName" autofocus="autofocus"
+                                    placeholder="p.e. Juan">
+                            </div>
 
-                            <label for="flastName"> Apellidos: </label>
-                            <input type="text" id="flastName" name="flastName" placeholder="p.e. Rodriguez">
+                            <div class="contApellidos">
+                                <label for="fLastName"> Apellidos: </label>
+                                <input type="text" id="fLastName" name="fLastName" placeholder="p.e. Rodriguez">
+                            </div>
+
+                            <div class="contEmail">
+                                <label for="fMail"> E-mail </label>
+                                <input type="email" id="fMail" name="fMail" placeholder="example@xmail.xxx" />
+                            </div>
+
+                            <div class="contSexo">
+                                <label for="sexo"> Sexo: </label>
+                                <input type="radio" name="sexo" value="Masculino"> Masculino
+                                <input type="radio" name="sexo" value="Femenino"> Femenino
+                            </div>
+
+                            <div class="contCiudad">
+                                <label for="ciudadNacimiento"> Ciudad: </label>
+                                <select name="ciudadNacimiento" id="ciudadNacimiento">
+                                    <optgroup label="Comunidad Valenciana">
+                                        <option value="Valencia"> Valencia </option>
+                                        <option value="Castellon"> Castellon </option>
+                                        <option value="Alicante"> Alicante </option>
+                                    </optgroup>
+                                    <optgroup label="Cataluña">
+                                        <option value="Lleida"> Lleida </option>
+                                        <option value="Girona"> Girona </option>
+                                        <option value="Barcelona"> Barcelona </option>
+                                        <option value="Tarragona"> Tarragona </option>
+                                    </optgroup>
+                                </select>
+                            </div>
+
+                            <div class="contTelefono">
+                                <label for="telefono"> Numero de telefono </label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="numero telefono" />
+                            </div>
+
+                            <div class="contDni">
+                                <label for="archivo"> Introduce tu DNI en formato PDF: </label>
+                                <input type="file" id="file" name="file">
+                            </div>
+
+                            <div class="contDescripcion">
+                                <label for="descripcion"> Cuentanos tus dudas: </label>
+                                <textarea cols="50" rows="5" minlength="0" maxlength="1000"
+                                    placeholder="Máximo 1000 carácteres"></textarea>
+                            </div>
+
+                            <div class="contBotones">
+                                <input class="boton" type="submit" value="Enviar formulario" />
+                                <input class="boton" type="reset" value="Resetear formulario" />
+                            </div>
                         </fieldset>
                     </form>
                 </section>
             </div>
-            
+
             <aside class="contAside">
                 <h2> ASIDE </h2>
             </aside>

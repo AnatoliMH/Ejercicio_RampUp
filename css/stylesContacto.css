@@ -4,7 +4,37 @@
 
 .contExterior {
     background-color: rgba(173, 173, 173, 0.5);
-    border-radius: 5px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.contNombre, .contApellidos, .contEmail, .contSexo, .contCiudad, .contTelefono, .contDni, .contDescripcion {
+    margin-top: 1em;
+    padding: 5px;
+}
+
+.contNombre:hover, .contApellidos:hover, .contSexo:hover, .contEmail
+.contCiudad:hover, .contTelefono:hover, .contDni:hover, .contDescripcion:hover  {
+    background-color: rgb(173, 173, 173);
+    border-radius: 5px;
+}
+
+.contBotones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
 }
