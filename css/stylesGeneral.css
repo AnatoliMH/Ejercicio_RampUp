@@ -11,7 +11,7 @@
 }
 
 .encabezado {
-    background-color: rgba(0, 255, 255, 0.534);
+    background-color: #35bfd4;
     margin: 3px;
     padding: 1em;
     border-radius: 1em;
@@ -19,7 +19,7 @@
 }
 
 .barraNav {
-    background-color: rgb(146, 165, 165);
+    background-color: #4f7d96;
     margin: 3px;
     border-radius: 1em;
     display: flex;
@@ -46,7 +46,7 @@
 }
 
 .contSeccion {
-    background-color: khaki;
+    background-color: #af9eab;
     margin: 3px;
     padding: 1em;
     border-radius: 1em;
@@ -54,7 +54,7 @@
 }
 
 .contAside {
-    background-color: aquamarine;
+    background-color: #f0d2d3;
     margin: 3px;
     padding: 1em;
     border-radius: 1em;
@@ -63,7 +63,7 @@
 }
 
 .contFooter {
-    background-color:rgba(0, 255, 255, 0.534);
+    background-color:#35bfd4;
     margin: 3px;
     padding: 1em;
     border-radius: 1em;

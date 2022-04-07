@@ -6,7 +6,7 @@
     width: 100%;
     border: 3px solid;
     border-spacing: 5px;
-    background: #000 url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhZGllbnR8ZW58MHx8MHx8&w=1000&q=80) 
+    background: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhZGllbnR8ZW58MHx8MHx8&w=1000&q=80) 
     bottom left repeat-x;
     border-radius: 5px;
 }
